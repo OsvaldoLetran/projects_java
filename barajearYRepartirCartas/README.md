@@ -1,7 +1,6 @@
 ## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
+Welcome to the Java world. Here is a guideline to help you get started to write Java code.
 ## Folder Structure
 
 The workspace contains two folders by default, where:
@@ -9,9 +8,16 @@ The workspace contains two folders by default, where:
 - `src`: the folder to maintain sources
 - `lib`: the folder to maintain dependencies
 
+You can create a `lib` to add dependencies
 Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Commands to compile and execute:
+```sh
+javac -d bin/ barajaryrepartecartas/BarajarYReparteCartas.java
+java -cp bin/ barajaryrepartecartas.BarajarYReparteCartas
+```
+
+> If you want to customize the folder structure and you write Java code in VS code, open `.vscode/settings.json` and update the related settings there.
 
 ## Dependency Management
 
