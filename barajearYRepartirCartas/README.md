@@ -13,7 +13,7 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 
 Commands to compile and execute:
 ```sh
-javac -d bin/ barajaryrepartecartas/BarajarYReparteCartas.java
+javac -d bin/ src/barajaryrepartecartas/BarajarYReparteCartas.java
 java -cp bin/ barajaryrepartecartas.BarajarYReparteCartas
 ```
 

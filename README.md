@@ -7,6 +7,6 @@ Puedes hacerle Fork o clone a los proyectos del curso.
 Para compilar y ejecutar tus proyectos de java en la terminal debes ejecutar los siguientes comandos, desde el directorio del proyecto:
 
 ```sh
-javac -d bin/ package/Main.java 
+javac -d bin/ src/package/Main.java 
 java -cp bin/ package.Main
 ```

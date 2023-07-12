@@ -70,16 +70,16 @@ public class Craps2021 {
             if(sumaDeDados == miPunto)//gana haciendo un punto
                 estadoJuego = Estado.GANO;
             else
-                if(sumaDeDados==SIETE)//pierde al tirar 7 antes del punto
+                if(sumaDeDados == SIETE)//pierde al tirar 7 antes del punto
                     estadoJuego = Estado.PERDIO;
         }
 
         //muestra mensaje de que gano o perdio
-        if (estadoJuego==Estado.GANO)
+        if (estadoJuego == Estado.GANO)
             System.out.println("El jugador gana");
         else
             System.out.println("El jugador pierde");
-        tecla=miPunto;
+        tecla = miPunto;
         }
 
         entrada.close();
