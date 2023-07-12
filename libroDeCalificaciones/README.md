@@ -2,7 +2,7 @@
 
 Welcome to the Java world. Here is a guideline to help you get started to write Java code.
 
-Calculate the average og the grades obtained by each student in the subject specified in the program. There are 10 students in total.
+Calculate the average of the total grades obtained by each student in the subject specified in the program. There are 10 students in total.
 
 ## Folder Structure
 
