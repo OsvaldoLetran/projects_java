@@ -34,7 +34,15 @@ public class Craps2021 {
         // TODO code application logic here
         Scanner entrada = new Scanner(System.in);
         System.out.println("Desea continuar");
-        int tecla = entrada.nextInt();
+
+        int tecla = 0;
+        if (entrada.hasNextInt()) {
+            tecla = entrada.nextInt();
+        } else {
+            System.out.println("Entrada no válida. Por favor, ingrese un número entero.");
+            entrada.next(); // limpia el buffer
+        }
+
         while(tecla != 8)
         {
         int miPunto = 0; //punto si no gana o pierde en el primer tiro.
@@ -79,7 +87,15 @@ public class Craps2021 {
             System.out.println("El jugador gana");
         else
             System.out.println("El jugador pierde");
-        tecla = miPunto;
+
+            // volver a preguntar al usuario
+            System.out.println("¿Desea continuar? (ingrese 8 para salir)");
+            if (entrada.hasNextInt()) {
+                tecla = entrada.nextInt();
+            } else {
+                System.out.println("Entrada no válida. Por favor, ingrese un número entero.");
+                entrada.next(); // limpia el buffer
+            }
         }
 
         entrada.close();
